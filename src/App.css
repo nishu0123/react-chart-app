@@ -1,0 +1,63 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(231, 216, 216);
+    
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Sidebar{
+    height: 100vh;
+    width: 15vw;
+    position:sticky;
+    /* background-color: rgb(239, 136, 136); */
+    
+  }
+  .SidebarList{
+    
+    height: 100vh;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(44, 43, 43);
+    position:sticky;
+  }
+  
+  .SidebarList .row{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(55, 53, 53);
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+    
+  }
+  .row #Icon{
+    flex: 30%;
+    display: grid;
+    place-items: center;
+  }
+  
+  .row #Title{
+    flex: 70%;
+  
+  }
+  .SidebarList .row:hover{
+    cursor: pointer; 
+    background-color: rgb(20, 19, 19);
+  }
+  
+  .SidebarList #active{
+    background-color: rgb(16, 140, 128);
+  }
+  
+  
